@@ -1,0 +1,220 @@
+{
+    "1": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "2" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "3" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "4" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "5": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "6" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "7" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "8": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "9" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "10" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "11": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "12" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "13" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "14" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "15": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "16" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "17" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "18": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "19" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "20" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "21": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "22" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "23" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "24" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "25": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "26" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "27" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "28": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "29" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "30" : [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ],
+    "31": [
+        {"hour": 6, "minute": 15},
+        {"hour": 6, "minute": 16},
+        {"hour": 6, "minute": 17},
+        {"hour": 6, "minute": 18},
+        {"hour": 6, "minute": 19}
+    ]
+
+}
