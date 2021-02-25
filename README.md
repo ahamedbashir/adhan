@@ -12,13 +12,10 @@ You can use this application for personal purpose using your own local prayer ti
 
 # Prayer Times
 
-## These Monthly prayer time files are generated for New York City Only
-
 # Required Data and Format
 - Filename must be named Month.json
 - Array Index must follow date
 - "Fajr": "HH:MM:SS"
-- "Sunrise": "HH:MM:SS"
 - "Dhuhr": "HH:MM:SS"
 - "Asr": "HH:MM:SS"
 - "Maghrib": "HH:MM:SS"
@@ -30,17 +27,6 @@ You can use this application for personal purpose using your own local prayer ti
         {
             "Date": "Month Date 1",
             "Day": "Day",
-              {
-            "Date": "Month Date",
-            "Day": "Day",
-            "Fajr": "HH:MM:SS",
-            "Sunrise": "HH:MM:SS",
-            "Dhuhr": "HH:MM:SS",
-            "Asr": "HH:MM:SS",
-            "Maghrib": "HH:MM:SS",
-            "Isha": "HH:MM:SS",
-            "Arabic Date": "Arabic Month Date"
-        }
             "Sunrise": "HH:MM:SS",
             "Dhuhr": "HH:MM:SS",
             "Asr": "HH:MM:SS",
