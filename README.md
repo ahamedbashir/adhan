@@ -12,7 +12,7 @@ You can use this application for personal purpose using your own local prayer ti
 
 # Prayer Times
 
-# Required Data and Format
+## Required Data and Format
 - Filename must be named Month.json
 - Array Index must follow date
 - "Fajr": "HH:MM:SS"
