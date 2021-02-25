@@ -40,8 +40,9 @@ class Adhan(Thread):
             self.scheduAdhan()
 
     def playAdhan(self, prayerTime, prayerName):
-        adhan = AudioPlayer("./Adhans/Adhan.mp3") if prayerName > 0 \
-            else AudioPlayer("./Adhans/AdhanFajr.mp3")
+        adhan = AudioPlayer("./Adhans/AdhanFajr.mp3") if prayerName == "Fajr" \
+            else AudioPlayer("./Adhans/Adhan.mp3")
+        print(prayerName, prayerTime)
         adhan.play(block=True)
         time.sleep(10)
         adhan.stop()
