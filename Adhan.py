@@ -20,7 +20,7 @@ class Adhan(Thread):
         stopFlag = Event()
         thread = self(stopFlag)
         thread.run()
-        # this will stop the timer
+        # stop the timer
         stopFlag.set()
 
     def run(self):
@@ -37,9 +37,6 @@ class Adhan(Thread):
             print("Next day", nextDay)
             waitTime = waitTime2 if firsRun else finalWaitTime
             firsRun = False
-            print(waitTime2)
-            print(finalWaitTime)
-            # call a function
             self.scheduAdhan()
 
     def playAdhan(self, prayerTime, prayerName):
@@ -52,20 +49,26 @@ class Adhan(Thread):
 
     def scheduAdhan(self):
         date = datetime.now()
-        with open(f"./prayerTimes/Month{date.month}.json") as f:
+        with open(f"./prayerTimes/{date.strftime('%B') }.json") as f:
             monthlyPrayerTimes = json.load(f)
-            self.playDailyPrayerAlert(monthlyPrayerTimes[str(date.day)])
+            self.playDailyPrayerAlert(monthlyPrayerTimes[date.day-1])
             # print(monthlyPrayerTimes[str(date.day)])
 
     def playDailyPrayerAlert(self, PrayerTimes):
-        for prayerTime in range(5):
+        for nextPrayerName in ('Fajr',	'Dhuhr',	'Asr',	'Maghrib',	'Isha'):
+            nextPrayerTime = PrayerTimes[nextPrayerName]
+            nextPrayerTime = datetime.strptime(
+                nextPrayerTime, '%H:%M:%S').time()
+
             timeNow = datetime.today()
-            nextPrayer = timeNow.replace(day=timeNow.day, hour=PrayerTimes[prayerTime]["hour"], minute=PrayerTimes[prayerTime]["minute"],
-                                         second=0, microsecond=0)
-            delta_t = nextPrayer - timeNow
+            delta_t = datetime.combine(
+                timeNow.today(), nextPrayerTime) - timeNow
+
             secs = delta_t.total_seconds()
-            Timer(secs, self.playAdhan, [
-                PrayerTimes[prayerTime], prayerTime]).start()
+
+            if secs > 0:
+                Timer(secs, self.playAdhan, [
+                    nextPrayerTime, nextPrayerName]).start()
 
 
 if __name__ == "__main__":
