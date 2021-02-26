@@ -74,7 +74,6 @@ class Adhan(Thread):
         delta_t = datetime.combine(
             timeNow.today(), nextPrayerTime) - timeNow
         waitTime = delta_t.total_seconds()
-        waitTime = 60
         if waitTime >= 0:
             print("Time Now : ", timeNow.time())
             print("Next Prayer Time : ", nextPrayerName, nextPrayerTime)
