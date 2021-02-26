@@ -46,7 +46,7 @@ class Adhan(Thread):
         adhan = AudioPlayer("./Adhans/AdhanFajr.mp3") if prayerName == "Fajr" \
             else AudioPlayer("./Adhans/Adhan.mp3")
         print(prayerName, prayerTime)
-        adhan.play(block=False)
+        adhan.play(block=True)
         time.sleep(10)
         adhan.stop()
         adhan.close()
