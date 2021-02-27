@@ -37,7 +37,6 @@ class Adhan(Thread):
             today = datetime.now()
             print("Start Time", today)
             waitTime = waitTime2 if firstRun else finalWaitTime
-            waitTime = 30
             firstRun = False
             self.scheduleAdhan()
             print("Next day will start")
