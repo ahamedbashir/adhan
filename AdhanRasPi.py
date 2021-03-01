@@ -18,7 +18,7 @@ class Adhan(Thread):
 
     def start(self):
         stopFlag = self.stopped
-        thread = Adhan()
+        thread = self
         thread.run()
         # stop the timer
         stopFlag.set()
