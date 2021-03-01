@@ -33,8 +33,7 @@ class Adhan(Thread):
             nextDay = now + timedelta(days=1)
             nextDay = nextDay.replace(hour=1, minute=0, second=0, microsecond=0)
             waitTime = (nextDay - now).total_seconds()
-            waitTime = 60
-            print("Next day will start in", datetime.strftime(timedelta(waitTime), '%H:%M:%S'))
+            print("Next day will start in", timedelta(waitTime))
 
     def playAdhan(self, prayerTime, prayerName):
         path = os.path.dirname(os.path.realpath(__file__))
@@ -78,7 +77,6 @@ class Adhan(Thread):
         delta_t = datetime.combine(
             timeNow.today(), nextPrayerTime) - timeNow
         waitTime = delta_t.total_seconds()
-        waitTime = 60
         if waitTime >= 0:
             print("Time Now : ", datetime.strftime(timeNow, '%H:%M:%S'))
             print("Next Prayer Time : ", nextPrayerName, nextPrayerTime)
